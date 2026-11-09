@@ -1,0 +1,36 @@
+
+# ==========================================
+# CONTROLE FINANCEIRO PYTHON
+# Arquivos ignorados pelo Git
+# ==========================================
+
+# Cache gerado pelo Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ambientes virtuais
+venv/
+.venv/
+env/
+
+# Variáveis de ambiente e dados sensíveis
+.env
+.env.*
+!.env.example
+
+# Configurações locais do VS Code
+.vscode/
+
+# Arquivos de testes e cobertura
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Arquivos temporários do sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
